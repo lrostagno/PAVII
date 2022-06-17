@@ -18,6 +18,7 @@ export class ArticulosFamiliasComponent implements OnInit {
   ngOnInit() {
     this.GetFamiliasArticulos();
   }
+  // Comment
  
   GetFamiliasArticulos() {
     this.articulosFamiliasService.get().subscribe((res: ArticuloFamilia[]) => {
